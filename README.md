@@ -12,7 +12,7 @@ B.Tech Aerospace Engineering, Indian Institute of Technology Madras
 
 In this work, I developed a deep learning architecture based on Neural Ordinary Differential Equations (NeuralODE) to mimic/emulate the performance of an astrochemical modelling code, `3DPDR`. The network evaluates chemistry about ~17000 times faster, and produces accurate predictions for many chemical species and temperatures. For more details, click here.
 
-![Predicted vs true abundances](../../LU/ML_PDR_Orion_bar/abundance_confidence_0.1.png "Predicted vs true abundances")
+![Predicted vs true abundances](assets/model_565_pred_abundances.png "Predicted vs true abundances")
 
 
 
