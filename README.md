@@ -21,13 +21,13 @@ In this work, I measured the interstellar scattering effect that causes poorer r
 
 ### Course projects
 
-#### Policy-based Reinforcement Learning
+#### **Policy-based Reinforcement Learning**
 
-#### Value-based Reinforcement Learning
+#### **Value-based Reinforcement Learning**
 
-#### CAntenna: An L-Band paint can interferometer
+#### **CAntenna: An L-Band paint can interferometer**
 
-#### Betelgeuse's expanding Oort cloud: an interstellar threat?
+#### **Betelgeuse's expanding Oort cloud: an interstellar threat?**
 
 
 
