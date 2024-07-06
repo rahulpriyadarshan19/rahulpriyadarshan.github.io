@@ -21,9 +21,15 @@ In this work, I measured the interstellar scattering effect that causes poorer r
 
 ### Course projects
 
-#### **Policy-based Reinforcement Learning**
+#### **Acrobot: Policy-based Reinforcement Learning**
+In this project, my team and I implemented the REINFORCE and different variants of the Actor-Critic policy-based RL algorithms. We evaluate their performance using the Acrobot environment in Gymnasium. We found that actor-critic in combination with bootstrapping and baseline subtraction provides a high mean reward compared to REINFORCE or plain vanilla Actor-Critic, as expected. 
 
-#### **Value-based Reinforcement Learning**
+![Performance of Actor-Critic](./assets/peformance_bootstrapping_baseline_subtraction.jpg "Performance of Actor-Critic with Bootstrapping and Baseline Subtraction")
+
+#### **Cartpole: Value-based Reinforcement Learning**
+In this project, my team and I implemented variants of Q-Learning, an off-policy value-based RL algorithm, and evaluated its performance on the Cartpole environment in Gymnasium. We found that the DQN algorithm, i.e. Q-Learning implemented with a replay buffer and a target network performs best, as expected.
+
+![Performance of DQN](./assets/DQN_performance.png "Performance of DQN")
 
 #### **CAntenna: An L-Band paint can interferometer**
 
