@@ -1,14 +1,14 @@
-### Education
+## Education
 
 M.Sc Astronomy and Data Science, Leiden University  
 B.Tech Aerospace Engineering, Indian Institute of Technology Madras  
 
 
-### Research Projects
+## Research Projects
 
 #### **Emulating a photodissociation region (PDR) code with deep learning (2nd master's thesis)**
 
-In this work, I developed and trained a deep learning architecture based on Neural Ordinary Differential Equations (NeuralODE) to mimic/emulate the performance of an astrochemical modelling code, `3DPDR`. The network evaluates chemistry in photodissociation regions (PDR) about ~17000 times faster, and produces accurate predictions for many chemical species and temperatures. For more details, click here.
+In this work, I developed and trained a deep learning architecture based on Neural Ordinary Differential Equations (NeuralODE) to mimic/emulate the performance of an astrochemical modelling code, `3DPDR`. The network evaluates chemistry in photodissociation regions (PDR) about ~17000 times faster, and produces accurate predictions for many chemical species and temperatures. For more details, check the project's [GitHub page](https://github.com/rahulpriyadarshan19/emulate-pdr-codes).
 
 ![Predicted vs true abundances](./assets/model_565_pred_abundances.png "Predicted vs true abundances")
 
@@ -19,10 +19,10 @@ In this work, I measured the interstellar scattering effect that causes poorer r
 
 ![Scattering width versus frequency](./assets/scattering_UM_updated_1.png "Scattering width versus frequency")
 
-### Course projects
+## Course projects
 
 #### **Acrobot: Policy-based Reinforcement Learning**
-In this project, my team and I implemented the REINFORCE and different variants of the Actor-Critic policy-based RL algorithms. We evaluate their performance using the Acrobot environment in Gymnasium. We found that actor-critic in combination with bootstrapping and baseline subtraction provides a high mean reward compared to REINFORCE or plain vanilla Actor-Critic, as expected. 
+In this project, my team and I implemented the REINFORCE and different variants of the Actor-Critic policy-based RL algorithms. We evaluate their performance using the Acrobot environment in Gymnasium. We found that actor-critic in combination with bootstrapping and baseline subtraction provides a high mean reward compared to REINFORCE or plain vanilla Actor-Critic, as expected. For more details, check the project's [GitHub page](https://github.com/rahulpriyadarshan19/policy-based-rl).
 
 ![Performance of Actor-Critic](./assets/peformance_bootstrapping_baseline_subtraction.jpg "Performance of Actor-Critic with Bootstrapping and Baseline Subtraction")
 
@@ -31,9 +31,11 @@ In this project, my team and I implemented variants of Q-Learning, an off-policy
 
 ![Performance of DQN](./assets/DQN_performance.png "Performance of DQN")
 
-#### **CAntenna: An L-Band paint can interferometer**
-
 #### **Betelgeuse's expanding Oort cloud: an interstellar threat?**
+
+In this project, my team and I ran multi-scale gravitational N-body simulations to compute the orbits of asteroids in the potential of the Milky Way galaxy, with the assumption that their host star (Betelgeuse) explodes in a supernova. We performed a statistical analysis on the asteroid orbits to find that there is only a $1$ in $1.48\times10^{13}$ possibility of an asteroid hitting Earth. For more details, check the project's [GitHub page](https://github.com/jaspermens/SMA-Betelgeuse). 
+
+![Relative positions of asteroids](./assets/relpos_0.png "Relative positions of arriving Oort cloud objects")
 
 
 
