@@ -6,11 +6,12 @@ B.Tech Aerospace Engineering, Indian Institute of Technology Madras
 
 ## Research Projects
 
-#### **Emulating a photodissociation region (PDR) code with deep learning (2nd master's thesis)**
+### **Emulating a photodissociation region (PDR) code with deep learning (2nd master's thesis)**
 
 In this work, I developed and trained a deep learning architecture based on Neural Ordinary Differential Equations (NeuralODE) to mimic/emulate the performance of an astrochemical modelling code, `3DPDR`. The network evaluates chemistry in photodissociation regions (PDR) about ~17000 times faster, and produces accurate predictions for many chemical species and temperatures. For more details, check the project's [GitHub page](https://github.com/rahulpriyadarshan19/emulate-pdr-codes).
 
-![Predicted vs true abundances](./assets/model_565_pred_abundances.png "Predicted vs true abundances")
+![Video](./assets/predictions_all.mp4 "Predictions vs true abundances")
+<figcaption>Above: Video showing the training process of the neural network-based emulator. The video shows predictions vs true abundances of different chemical species as a function of position. The solid lines are the outputs from `3DPDR` and the dashed lines are outputs from the deep learning-based emulator. As the number of epochs increase, the predictions match better with the ground truths.</figcaption>
 
 ![Abundances of different chemical species](./assets/species_plot.png "Abundances of different chemical species")
 
