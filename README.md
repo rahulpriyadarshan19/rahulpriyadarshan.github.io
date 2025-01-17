@@ -1,24 +1,16 @@
-## Education
-
-M.Sc Astronomy and Data Science, Leiden University  
-B.Tech Aerospace Engineering, Indian Institute of Technology Madras  
-
+Welcome to my website. This shows a summary of my projects, and some important visualisations I generated from my projects.
 
 ## Research Projects
 
 ### **Emulating a photodissociation region (PDR) code with deep learning (2nd master's thesis)**
 
-In this work, I developed and trained a deep learning architecture based on Neural Ordinary Differential Equations (NeuralODE) to mimic/emulate the performance of an astrochemical modelling code, `3DPDR`. The network evaluates chemistry in photodissociation regions (PDR) about ~17000 times faster, and produces accurate predictions for many chemical species and temperatures. For more details, check the project's [GitHub page](https://github.com/rahulpriyadarshan19/emulate-pdr-codes).
+In this work, I developed and trained a deep learning architecture based on Augmented Neural Ordinary Differential Equations (ANODE) to mimic/emulate the performance of an astrochemical modelling code, `3DPDR`. The network evaluates chemistry in photodissociation regions (PDR) about ~17000 times faster, and produces accurate predictions for many chemical species and temperatures. For more details, check the project's [GitHub page](https://github.com/uclchem/neuralpdr).
 
 ![Video](./assets/predictions_all.mp4 "Predictions vs true abundances")
-<figcaption>Above: Video showing the training process of the neural network-based emulator. The video shows predictions vs true abundances of different chemical species as a function of position. The solid lines are the outputs from `3DPDR` and the dashed lines are outputs from the deep learning-based emulator. As the number of epochs increase, the predictions match better with the ground truths.</figcaption>
+<figcaption>Above: Video showing the training process of the neural network-based emulator. The video shows predictions vs true abundances of different chemical species as a function of position. The solid lines are the outputs from 3DPDR and the dashed lines are outputs from the deep learning-based emulator. As the number of epochs increase, the predictions match better with the ground truths.</figcaption>
 
 ![Abundances of different chemical species](./assets/species_plot.png "Abundances of different chemical species")
-
-#### **Interstellar Broadening with LOFAR (1st master's thesis)**
-In this work, I measured the interstellar scattering effect that causes poorer resolution (broadening) of astronomical images at radio frequencies. I  found that broadening reduces with increasing radio frequencies, as expected. For more details, click here. 
-
-![Scattering width versus frequency](./assets/scattering_UM_updated_1.png "Scattering width versus frequency")
+Above: A 2D histogram showing the predicted and ground truth abundances of different chemical species ($\text{H}$, $\text{H}^+$, $\text{C}^+$, $\text{C}$, $\text{CO}$) and temperatures ($\text{T}_{\text{gas}}$, $\text{T}_{\text{dust}}$).
 
 ## Course projects
 
@@ -37,19 +29,3 @@ In this project, my team and I implemented variants of Q-Learning, an off-policy
 In this project, my team and I ran multi-scale gravitational N-body simulations to compute the orbits of asteroids in the potential of the Milky Way galaxy, with the assumption that their host star (Betelgeuse) explodes in a supernova. We performed a statistical analysis on the asteroid orbits to find that there is only a $1$ in $1.48\times10^{13}$ possibility of an asteroid hitting Earth. For more details, check the project's [GitHub page](https://github.com/jaspermens/SMA-Betelgeuse). 
 
 ![Relative positions of asteroids](./assets/relpos_0.png "Relative positions of arriving Oort cloud objects")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Outreach
